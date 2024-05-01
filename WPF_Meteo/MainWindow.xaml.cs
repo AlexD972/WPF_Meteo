@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPF_Meteo.Views.Windows;
 
 namespace WPF_Meteo
 {
@@ -19,6 +20,9 @@ namespace WPF_Meteo
 		public MainWindow()
 		{
 			InitializeComponent();
+			this.Hide();
+			View_Main_Window view_MainWindow = new View_Main_Window();
+			view_MainWindow.Show();
 		}
 	}
 }
