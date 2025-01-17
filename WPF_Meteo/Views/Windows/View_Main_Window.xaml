@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Meteo.Views.Windows"
         mc:Ignorable="d"
-        Title="View_Main_Window" Height="600" Width="600" WindowStyle="None">
+        Title="View_Main_Window" Height="600" Width="600">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="30*"/>
